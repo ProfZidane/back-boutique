@@ -1,0 +1,105 @@
+.bord {
+    border: solid;
+}
+
+#lce-nav {
+    padding: 1.5rem;
+}
+
+.lce-space {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.lce-title {
+    margin-top: 2rem;
+}
+
+.lce-title h1 {
+    /*text-align: center;*/
+    color: orangered;
+}
+
+/* banner */
+
+.lce-banner {
+    height: 500px;
+}
+
+.lce-banner img {
+    position: relative;
+    top: 20px;
+}
+
+.lce-banner h1 {
+    font-size: 60px;
+}
+
+.lce-banner p {
+    font-size: 15px;
+}
+
+.lce-banner button {
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.lce-banner div div div {
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+/* card */
+
+.lce-card {
+    margin-top: 2rem;
+}
+
+.lce-card div {
+    width: 70%;
+    padding: 2rem;
+}
+
+.lce-card div h4 {
+    margin-bottom: 1rem;
+}
+
+
+/* produit card */
+
+.lce-prod-card {
+    padding: 4rem;
+}
+
+.lce-prod-card h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.lce-prod-card span {
+    color: rgb(170, 169, 169);
+}
+
+.lce-prod-card button {
+    color: white;
+ 
+}
+
+.lce-section {
+    margin-top: 8rem;
+}
+
+
+/*icons */
+button.btn i {
+    font-size: 20px;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 1200px) {    
+    #lce-detail div {
+        margin-top: 30rem;
+    }
+}
