@@ -1,5 +1,10 @@
+/* color */
 .lce-primary {
     color: orangered;
+}
+
+#lce-text-dark {
+    color: black;
 }
 
 /* background color */

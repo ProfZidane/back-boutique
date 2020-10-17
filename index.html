@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav offset-8">
             <li class="nav-item active lce-space">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <!--<li class="nav-item lce-space">
               <a class="nav-link" href="#">Link</a>
@@ -41,11 +41,11 @@
                 <a class="dropdown-item" href="#">Biens Consommables</a>
                 <a class="dropdown-item" href="#">Biens Non-consommables</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Tous les articles</a>
               </div>
             </li>
             <li class="nav-item lce-space">
-              <a class="nav-link"  href="#">
+              <a class="nav-link"  href="cart.html">
                 <i class="material-icons lce-primary">shopping_cart</i>0
               </a>
             </li>
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="col-md-6 ">
-                <img src="img/mag2.png" width="100%" alt="">
+                <img src="img/mag2.png" class="from-right" width="100%" alt="">
             </div>
         </div>
       </div>
@@ -92,6 +92,8 @@
               <div class="row">
                   <div class="col-md-6 lce-card" id="lce-detail" align="center">
                     <div>
+                        <img src="img/b-0.png" alt="" width="30%">
+                        <br><br>
                         <h4>
                         Biens Consommables
                     </h4>
@@ -104,6 +106,8 @@
                   </div>
                   <div class="col-md-6 lce-card" align="center">
                     <div>
+                        <img src="img/b-1.png" alt="" width="30%">
+                        <br><br>
                         <h4>
                         Biens Non-consommables
                     </h4>
@@ -234,7 +238,7 @@
             </div>
             <div class="col-md-5 ">
               <div class="lce-detail-prod">
-                <h3>Câble Réseaux X500</h3>
+                <h3 class="lce-primary">Câble Réseaux X500</h3>
                 <br>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, molestiae. Consequatur minus itaque dignissimos voluptatem cumque quos inventore, facilis, velit nisi ab asperiores quisquam praesentium expedita aut ea, sapiente atque.
@@ -242,11 +246,11 @@
                 <br>
                 <div class="row">
                   <div class="col-md-12 ">
-                    <h4>Prix : <span>1000 FCFA</span></h4>
+                    <h4>Prix : <span class="lce-w-50">1000 FCFA</span></h4>
                   </div>
                   <br><br>
                   <div class="col-md-12 ">
-                    <h4>Disponibilité : <span>En stock</span></h4>
+                    <h4>Disponibilité : <span class="lce-w-50">En stock</span></h4>
                   </div>
                   <br><br>
                   <div class="col-md-12 ">                    
@@ -259,7 +263,7 @@
                         <input type="number" class="form-control" value="1" min="0">
                       </div>
                       
-                    </div>
+                    </div> 
                   </div>
                 </div>
               </div>
@@ -268,8 +272,8 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn text-light" id="lce-bg-primary">Ajouter Panier</button>
       </div>
     </div>
   </div>
@@ -292,7 +296,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="js/sidebar.js"></script>
     <script src="js/index.js"></script>
-
+<script src="js/animation.js"></script>
     <script>
       $ (document).ready (function () {
         $ (".modal a").not (".dropdown-toggle").on ("click", function () {
