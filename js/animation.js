@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).on('load', function () {
+    console.log('pret');
     
     var elmt   = $('.from-left, .from-right');
     var topImg = $('.from-left, .from-right').offset().top;
@@ -16,5 +16,6 @@ $(document).ready(function(){
                 
                 };
         });
-    });
 });
+
+ 

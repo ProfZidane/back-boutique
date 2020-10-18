@@ -183,3 +183,29 @@ button.btn i {
         margin-top: 30rem;
     }
 }
+
+@media screen and (max-width: 600px) {    
+    .in-table {
+        position: relative;
+        bottom: 210px;
+    }
+
+    .in-table-1 {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .in-table-2 {
+        position: relative;
+        bottom: 120px;
+    }
+
+    .mob-pos-p {
+        position: relative;
+        bottom: 120px;
+    }
+
+    .mob-pos-btn {
+        margin-bottom: 2rem;
+    }
+}
